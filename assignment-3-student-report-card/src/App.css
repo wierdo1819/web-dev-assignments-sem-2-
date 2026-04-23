@@ -1,0 +1,114 @@
+/* 🌌 Background */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🧊 Glass Container */
+.container {
+  width: 65%;
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* 🎓 Title */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* 📝 Form Styling */
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  backdrop-filter: blur(5px);
+}
+
+input::placeholder {
+  color: #ddd;
+}
+
+/* 🔘 Button */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 198, 255, 0.6);
+}
+
+/* 📊 Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 15px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Header */
+th {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 12px;
+}
+
+/* Rows */
+td {
+  padding: 12px;
+  text-align: center;
+}
+
+/* Row hover */
+tr:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Input inside table */
+td input {
+  width: 60px;
+  text-align: center;
+}
+
+/* ✅ Pass / ❌ Fail */
+.pass {
+  color: #00ff9d;
+  font-weight: bold;
+}
+
+.fail {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+/* ✨ Smooth animation */
+* {
+  transition: all 0.25s ease-in-out;
+}
